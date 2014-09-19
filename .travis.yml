@@ -1,6 +1,9 @@
 language: java
 jdk:
 - openjdk7
+branches:
+  only:
+  - devel
 env:
   global:
   - secure: GCMKdzaZGc7bEXaBNbKHiLTxewSyJ8rr3ZZQ5IPAbUBnXhuO3tGJgukSM2TGWMv5g9TzqxalEuh7ZFF+dbmInBUXzrrx+jR2DniIXUwo/acSXohNF/1WDlHOZKp/63D/YD0vQvI4UWh4M8/IFuVJspV9rhgu8Dt0zt4dPa8Lql4=
